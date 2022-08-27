@@ -1,7 +1,7 @@
 body{
-    background-color:#EAE3D2;
+    background-color:#71effd;
 }
- 
+
 hr{
     background-color: none;
     border-style:none;
@@ -17,5 +17,26 @@ h1{
 }
 
 h3{
-    color: #0078AA;
+    color: #034c6b;
 }
+
+ul{
+    background:#1bccf9;
+    padding: 15px;
+}
+ul li{
+    background-color: #b2fcff;
+    color: darkblue;
+    border: 5px;
+}
+
+table{
+    background-color: #b2fcff;
+    color: darkblue;
+    border: 5px;
+}
+
+.muradunset{
+    all: unset;
+}
+/* made a class here so that i can use this class to unset the stylesheet things for some specific portion */
