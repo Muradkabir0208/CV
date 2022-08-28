@@ -1,3 +1,5 @@
+/* priority: inline>>internal>>external css */
+
 body{
     background-color:#71effd;
 }
@@ -40,3 +42,14 @@ table{
     all: unset;
 }
 /* made a class here so that i can use this class to unset the stylesheet things for some specific portion */
+/* but priority of id selector>>class selector */
+
+ol{
+    background-color: #3AB4F2;
+    padding: 15px;
+}
+ol li{
+    background-color: #b2fcff;
+    color: #293462;
+    border: 5px;
+}
